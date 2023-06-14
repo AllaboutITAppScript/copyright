@@ -1,6 +1,5 @@
-window.addEventListener('load', () => {
-    let text = document.getElementById("text").innerHTML = ` 
-    <div id="loader">
+ window.addEventListener('load', () => {
+    let text = document.getElementById("text").innerHTML = `<div id="loader">
     <div class="overlay">
       <div class="overlay__inner">
         <div class="overlay__content">
@@ -9,12 +8,4 @@ window.addEventListener('load', () => {
       </div>
     </div>
   </div>`;
-    AOS.init({
-      duration: 1000,
-      easing: "ease-in-out",
-      once: true,
-      mirror: false
-    });
   });
-
-})()
